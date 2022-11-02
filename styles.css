@@ -47,18 +47,33 @@ body {
 #tvs-sold {
     border: 10px solid green;
     color: forestgreen;
+    border-radius: 10px;
+
 }
 
 #tvs-originalStock {
     border: 10px solid darkblue;
     color: blue;
+    border-radius: 10px;
+
 
 }
 
 #tvs-toBeSold {
     border: 10px solid darkred;
     color: red;
+    border-radius: 10px;
+
 }
 #tv-brands{
-    color: rebeccapurple;
+    border: 10px solid rebeccapurple;
+    border-radius: 10px;
+}
+#example-model{
+    border: 10px solid yellow;
+    border-radius: 10px;
+}
+#inventory-tv-list {
+    border: 10px solid yellow;
+    border-radius: 10px;
 }
