@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --header-fonts: 'Merriweather', serif;
+    --body-fonts: 'Roboto', sans-serif;
+
+
+}
+
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+    /*!*border: purple 2px solid;*!*/
+}
+
+
+body {
+    font-family: Roboto, Arial, serif;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.outer-container{
+    flex-basis: 1200 px;
+    /*border: 10px solid darkblue;*/
+    /*flex-grow: 0;*/
+    /*flex-shrink: 1;*/
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inner-container article {
+    /*border-radius: 4px;*/
+    /*padding: 16px;*/
+    /*text-align: center;*/
+    flex-basis: 300px;
+    /*flex-grow: 0;*/
+    /*flex-shrink: 1;*/
+}
+
+#tvs-sold {
+    border: 10px solid green;
+    color: forestgreen;
+}
+
+#tvs-originalStock {
+    border: 10px solid darkblue;
+    color: blue;
+
+}
+
+#tvs-toBeSold {
+    border: 10px solid darkred;
+    color: red;
+}
+#tv-brands{
+    color: rebeccapurple;
+}
