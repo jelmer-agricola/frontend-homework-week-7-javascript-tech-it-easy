@@ -16,9 +16,24 @@ sortPriceButton.addEventListener('click', displaySortedTvs);
 
 
 function displaySortedTvs(){
-sortPriceTvLowToHigh(inventory);
-generateTvList(inventory);
+    sortPriceTvLowToHigh(inventory);
+    generateTvList(inventory);
 
+}
+
+const sortPriceButtonHighLow = document.getElementById('sort-price-button-high-low');
+sortPriceButtonHighLow.addEventListener('click', displaySortedTvs);
+
+
+function sortPriceTvHighToLow(priceTvs) {
+    priceTvs.sort((a, b) => b.price - a.price);
+}
+sortPriceTvHighToLow(inventory);
+console.log(inventory);
+
+function displaySortedTvs(){
+    sortPriceTvHighToLow(inventory);
+    generateTvList(inventory);
 }
 
 const filterAmbilightButton = document.getElementById('filter-ambilight-button');
