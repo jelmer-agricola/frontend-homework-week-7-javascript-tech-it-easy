@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+    <script defer src="opdracht1.js"></script>
+    <script defer src="opdracht2.js"></script>
+    <script defer src="opdracht3.js"></script>
+    <script defer src="opdracht4.js"></script>
+    <script defer src="opdracht-bonus.js"></script>
+
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
 
+
+<div class="outer-container">
+    <h1>Tech it easy</h1>
+    <section class="inner-container">
+        <article id="tvs-sold">Sold tv's</article>
+        <article id="tvs-originalStock"> Original Stock</article>
+        <article id="tvs-toBeSold"> Tv's Still to be sold</article>
+    </section>
+
+    <section>
+        <h2>Beschikbare Merken</h2>
+        <ul id="tv-brands"></ul>
+        <h2 >Voorbeeld model</h2>
+        <div id="example-model"></div>
+
+    </section>
+
+
+
+    <section>
+        <h2>Beschikbare modellen</h2>
+        <button type="button" id="sort-price-button">Prijs laag naar hoog</button>
+        <button type="button" id="sort-price-button-high-low">Prijs hoog naar laag</button>
+        <button type="button" id="filter-ambilight-button">TV's met Ambilight</button>
+        <button type="button" id="filter-sold-out-button">Uitverkochte Televisies</button>
+
+        <ul id="inventory-tv-list"></ul>
+    </section>
+    <img id="tech-it-easy-logo" src="assets/tech_it_easy.png" alt="tech it easy logo">
+
+
+</div>
+
+
+
 </body>
+
+
 </html>
